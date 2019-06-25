@@ -250,7 +250,7 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
     if (disabled) {
       view.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
     } else {
-      view.setLayerType(View.LAYER_TYPE_NONE, null);
+      view.setLayerType(View.LAYER_TYPE_HARDWARE, null);
     }
   }
 
